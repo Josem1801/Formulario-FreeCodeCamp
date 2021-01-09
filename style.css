@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+*{
+    padding: 0px;
+    border: 0px;
+}
+
+:root{
+    --blue-title: #0011B2;
+    --background: #FFCD19;
+    --font: #0019FF;
+    --background-form: #B28B00;
+    --example: #FFC700;
+}
+@media{
+
+}
+
+body{
+    background: var(--blue-title);
+    background-image: linear-gradient(
+        270deg,
+        rgba(189, 189, 189, 0.568),
+        rgba(180, 180, 180, 0.514)
+      ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family:'Oxygen';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 0px;
+    padding: 25px 0px 0px 0px;
+}
+
+#description{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-style: oblique;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#survey-form{
+    min-width: 50%;
+    background-color: rgba(87, 87, 87, 0.8);
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 4em;
+    font-size: 18px;
+    font-weight: 300;
+    margin:0px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding:14px;
+}
+
+.form-group #apartados{
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+p{margin:0px}
+
+.form-control{
+    font-size: 15px;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.submit-buttom{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+
+.submit-buttom:hover{
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 24px;
+}
